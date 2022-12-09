@@ -126,11 +126,8 @@
         {
             "m_id":2,
             "name":"admin 2",
-            "acount":"admin2",
-            "password":"12345678"
-        },
-        {
-
+            "acount":"user",
+            "password":"0000"
         }
     ]
   }
