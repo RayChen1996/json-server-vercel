@@ -1,21 +1,5 @@
 {
   "users":[
-    {
-      "id": 1,
-      "name": "admin",
-      "phone": "0912345678",
-      "email": "admin@gmail.com",
-      "password": "123456",
-      "role": "admin"
-    },
-    {
-       "id": 2,
-      "name": "user",
-      "phone": "0912345678",
-      "email": "user@gmail.com",
-      "password": "0000",
-      "role": "user"
-    }
   ],
     "DailyBibles": [
          { 
