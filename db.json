@@ -1,6 +1,21 @@
 {
   "users":[
-
+    {
+      "id": 1,
+      "name": "admin",
+      "phone": "0912345678",
+      "email": "admin@gmail.com",
+      "password": "123456",
+      "role": "admin"
+    },
+    {
+       "id": 2,
+      "name": "user",
+      "phone": "0912345678",
+      "email": "user@gmail.com",
+      "password": "0000",
+      "role": "user"
+    }
   ],
     "DailyBibles": [
          { 
@@ -116,21 +131,6 @@
             "title": "台東之旅",
             "note": "",
             "m_id": 2 
-        }
-    ],
-    "users": [
-        {
-            "m_id":1,
-            "name":"admin 1",
-            "acount":"admin",
-            "password":"123456"
-             
-        },
-        {
-            "m_id":2,
-            "name":"admin 2",
-            "acount":"user",
-            "password":"0000"
         }
     ]
   }
