@@ -147,28 +147,28 @@
     ],
     "Schedules": [
       {
-        "SCH_DATE": "26.11.2022",
+        "SCH_DATE": "04.12.2022",
         "title": "主日聚會",
         "note": "",
         "id": 1
       },
       {
-        "SCH_DATE": "29.11.2022",
+        "SCH_DATE": "07.12.2022",
         "title": "禱告聚會",
         "note": "",
         "id": 2
       },
       {
-        "SCH_DATE": "02.11.2022",
+        "SCH_DATE": "31.12.2022",
         "title": "台東之旅",
         "note": "",
         "id": 3
       },
       {
-        "tag": "教會活動333",
+        "tag": "教會活動",
         "Photo": "https://github.com/RayChen1996/js_hex_project-seed-church/blob/main/img/20170318%E6%96%B0%E9%81%A0%E8%AA%9E%E6%A2%85%E5%AE%B6%E5%BA%AD%E7%A6%AE%E6%8B%9C_221127.jpg?raw=true",
-        "Title": "會友家庭禮拜222",
-        "SubTitle": "2017-03-18",
+        "Title": "會友家庭禮拜",
+        "SubTitle": "2022-12-10",
         "id": 4
       }
     ],
