@@ -237,7 +237,7 @@
         "Name": "陳 O O"
       }
     ],
-      "views": [
+    "Views": [
         {
           "id": 1,
           "title": "大峽谷國家公園",
@@ -257,7 +257,7 @@
           "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/YangmingshanNP_MenHuanChao_001.jpg/300px-YangmingshanNP_MenHuanChao_001.jpg"
         }
       ],
-      "viewCollects": [
+      "ViewCollects": [
         {
           "id": 1,
           "userId": 2,
