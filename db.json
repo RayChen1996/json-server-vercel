@@ -3,15 +3,32 @@
       {
         "email": "admin@gmail.com",
         "password": "$2a$10$0kloyw0.ZwGHigZteKnHkulz82syuV1guIPQC37ZgbHrT6ttMHny6",
-        "role": "",
+        "role": "admin",
         "id": 1
       },
       {
         "email": "user@gmail.com",
         "password": "$2a$10$bQV8yVW0hnfXBhW3E.tQ9.f4t8rjA/2A.8fM63lwk/fMiu9PhHnC.",
-        "role": "",
+        "role": "user",
         "id": 2
       }
+    ],
+    "bookmarks":[
+        {
+            viewId: "1",
+            userId: "1",
+            id: 1
+        },
+        {
+            viewId: "1",
+            userId: "4",
+            id: 2
+        },
+        {
+            viewId: "3",
+            userId: "4",
+            id: 4
+        }
     ],
     "DailyBibles": [
       {
