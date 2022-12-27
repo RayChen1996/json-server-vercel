@@ -13,23 +13,23 @@
         "id": 2
       }
     ],
-    "bookmarks":[
-        {
-            viewId: "1",
-            userId: "1",
-            id: 1
-        },
-        {
-            viewId: "1",
-            userId: "4",
-            id: 2
-        },
-        {
-            viewId: "3",
-            userId: "4",
-            id: 4
-        }
-    ],
+  "bookmarks":[
+    {
+        "viewId": 1,
+        "userId": 1,
+        "id": 1
+    },
+    {
+        "viewId": 1,
+        "userId": 4,
+        "id": 2
+    },
+    {
+        "viewId": 3,
+        "userId": 4,
+        "id": 4
+    }
+  ],
     "DailyBibles": [
       {
         "id": 1,
