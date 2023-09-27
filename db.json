@@ -283,7 +283,9 @@
           "M_DT":"2023-09-23 10:30:00",
           "M_ImgSrc":"",
           "OrderType":2,
-          "CIdx":1
+          "CIdx":1,
+          "Price":30,
+          "Progress":0.75
         },
         {
           "id":2,
@@ -291,7 +293,9 @@
           "M_DT":"2023-09-23 10:30:00",
           "M_ImgSrc":"",
           "OrderType":2,
-          "CIdx":1
+          "CIdx":1,
+          "Price":180,
+          "Progress":1
         },
         {
           "id":3,
@@ -299,7 +303,9 @@
           "M_DT":"2023-09-23 10:30:00",
           "M_ImgSrc":"",
           "OrderType":2,
-          "CIdx":1
+          "CIdx":1,
+          "Price":360,
+          "Progress":0.25
         }
       ],
       "ShoppingCart":[
