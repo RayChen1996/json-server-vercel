@@ -446,15 +446,156 @@
       "CIdx": 1
     }
   ],
-  "Readers": [],
-  "Cards": [],
-  "Comments": [],
-  "Likes": [],
-  "Followers": [],
-  "Followings": [],
-  "Notifications": [],
-  "Messages": [],
-  "Chats": [],
+  "Readers": [
+    {
+      "id": "6d1f9b89-4b6f-4ef3-b3d5-a8d4e2f706a2",
+      "name": "Lobby Reader",
+      "location": "Lobby",
+      "status": "Active",
+      "installedDate": "2024-01-10"
+    },
+    {
+      "id": "7a2e16e1-6172-4d5d-a88f-07f23cd23fa7",
+      "name": "Garage Reader",
+      "location": "Garage",
+      "status": "Active",
+      "installedDate": "2024-02-15"
+    },
+    {
+      "id": "ec1a0e7f-9632-45b8-9c6b-8e383fae9bb6",
+      "name": "Server Room Reader",
+      "location": "Server Room",
+      "status": "Inactive",
+      "installedDate": "2023-12-01"
+    },
+    {
+      "id": "df8c74c6-5c1f-4a3e-9db1-e548d1cbb7b3",
+      "name": "Office Entry Reader",
+      "location": "Office Entry",
+      "status": "Maintenance",
+      "installedDate": "2024-03-20"
+    },
+    {
+      "id": "5c29ab22-719e-4e16-a72a-4bc75c6d4a18",
+      "name": "Rooftop Reader",
+      "location": "Rooftop",
+      "status": "Active",
+      "installedDate": "2024-04-01"
+    },
+    {
+      "id": "f68e4ec7-9ef7-445a-93db-4a88d1c4f56b",
+      "name": "Warehouse Reader",
+      "location": "Warehouse",
+      "status": "Inactive",
+      "installedDate": "2024-05-10"
+    }
+  ],
+  "Cards": [
+    {
+      "id": "d74b59f6-447f-4ad3-a8b7-94f64d7c7f5c",
+      "cardNumber": "AC1001",
+      "memberId": "1",
+      "status": "Active"
+    },
+    {
+      "id": "63eacf4d-8c77-4c88-91af-4b5d0c6e9ff1",
+      "cardNumber": "AC1002",
+      "memberId": "2",
+      "status": "Active"
+    },
+    {
+      "id": "6fe44f13-3db2-4e35-bb5d-fd9630af8b54",
+      "cardNumber": "AC1003",
+      "memberId": "3",
+      "status": "Inactive"
+    },
+    {
+      "id": "efa56127-b217-4e37-b1c5-fd92319e81c1",
+      "cardNumber": "AC1004",
+      "memberId": "4",
+      "status": "Active"
+    },
+    {
+      "id": "ce47468e-5a1c-42ef-bf2f-9b7b473c8e2d",
+      "cardNumber": "AC1005",
+      "memberId": "5",
+      "status": "Lost"
+    },
+    {
+      "id": "b7fbb6e1-9a7d-4389-bf6f-5f9c3e87599c",
+      "cardNumber": "AC1006",
+      "memberId": "6",
+      "status": "Active"
+    }
+  ],
+  "Comments": [
+    {
+      "id": 1,
+      "content": "Great feature!",
+      "userId": 1,
+      "postId": 1,
+      "timestamp": "2024-12-20T08:00:00Z"
+    },
+    {
+      "id": 2,
+      "content": "Needs improvement.",
+      "userId": 2,
+      "postId": 1,
+      "timestamp": "2024-12-20T09:00:00Z"
+    },
+    {
+      "id": 3,
+      "content": "I agree with this post.",
+      "userId": 3,
+      "postId": 2,
+      "timestamp": "2024-12-20T10:00:00Z"
+    },
+    {
+      "id": 4,
+      "content": "Could use more details.",
+      "userId": 4,
+      "postId": 2,
+      "timestamp": "2024-12-20T11:00:00Z"
+    },
+    {
+      "id": 5,
+      "content": "Fantastic!",
+      "userId": 5,
+      "postId": 3,
+      "timestamp": "2024-12-20T12:00:00Z"
+    },
+    {
+      "id": 6,
+      "content": "Well explained.",
+      "userId": 6,
+      "postId": 3,
+      "timestamp": "2024-12-20T13:00:00Z"
+    }
+  ],
+  "Likes": [
+    { "id": 1, "userId": 1, "postId": 1 },
+    { "id": 2, "userId": 2, "postId": 1 },
+    { "id": 3, "userId": 3, "postId": 2 },
+    { "id": 4, "userId": 4, "postId": 2 },
+    { "id": 5, "userId": 5, "postId": 3 },
+    { "id": 6, "userId": 6, "postId": 3 }
+  ],
+  "Followers": [
+    { "id": 1, "userId": 1, "followerId": 2 },
+    { "id": 2, "userId": 1, "followerId": 3 },
+    { "id": 3, "userId": 2, "followerId": 4 },
+    { "id": 4, "userId": 3, "followerId": 5 },
+    { "id": 5, "userId": 4, "followerId": 6 },
+    { "id": 6, "userId": 5, "followerId": 1 }
+  ],
+  "Followings": [
+    { "id": 1, "userId": 1, "followingId": 2 },
+    { "id": 2, "userId": 1, "followingId": 3 },
+    { "id": 3, "userId": 2, "followingId": 4 },
+    { "id": 4, "userId": 3, "followingId": 5 },
+    { "id": 5, "userId": 4, "followingId": 6 },
+    { "id": 6, "userId": 5, "followingId": 1 }
+  ],
   "productCategories": [
     {
       "id": 1,
@@ -681,6 +822,94 @@
       "memberId": 1,
       "timestamp": "2024-12-20T12:30:00Z",
       "status": "Access Denied"
+    }
+  ],
+  "AttendanceReports": [
+    {
+      "id": "d8b8f872-b8e5-4f96-9303-9d43103bb5e8",
+      "date": "2024-12-20",
+      "memberId": "1",
+      "entries": [
+        {
+          "time": "08:05:00",
+          "readerId": "6d1f9b89-4b6f-4ef3-b3d5-a8d4e2f706a2",
+          "type": "Check-in"
+        },
+        {
+          "time": "12:10:00",
+          "readerId": "7a2e16e1-6172-4d5d-a88f-07f23cd23fa7",
+          "type": "Check-out"
+        },
+        {
+          "time": "13:00:00",
+          "readerId": "7a2e16e1-6172-4d5d-a88f-07f23cd23fa7",
+          "type": "Check-in"
+        },
+        {
+          "time": "17:15:00",
+          "readerId": "6d1f9b89-4b6f-4ef3-b3d5-a8d4e2f706a2",
+          "type": "Check-out"
+        }
+      ]
+    },
+    {
+      "id": "1e4e8f94-2d98-4f85-b816-e9cb2c6b3b5a",
+      "date": "2024-12-20",
+      "memberId": "2",
+      "entries": [
+        {
+          "time": "08:20:00",
+          "readerId": "6d1f9b89-4b6f-4ef3-b3d5-a8d4e2f706a2",
+          "type": "Check-in"
+        },
+        {
+          "time": "12:15:00",
+          "readerId": "7a2e16e1-6172-4d5d-a88f-07f23cd23fa7",
+          "type": "Check-out"
+        },
+        {
+          "time": "13:05:00",
+          "readerId": "7a2e16e1-6172-4d5d-a88f-07f23cd23fa7",
+          "type": "Check-in"
+        },
+        {
+          "time": "17:30:00",
+          "readerId": "6d1f9b89-4b6f-4ef3-b3d5-a8d4e2f706a2",
+          "type": "Check-out"
+        }
+      ]
+    }
+  ],
+  "EntryTypes": [
+    {
+      "id": "1",
+      "type": "Check-in",
+      "description": "進入建築物時使用的類型"
+    },
+    {
+      "id": "2",
+      "type": "Check-out",
+      "description": "離開建築物時使用的類型"
+    },
+    {
+      "id": "3",
+      "type": "Break-start",
+      "description": "開始休息時間的記錄"
+    },
+    {
+      "id": "4",
+      "type": "Break-end",
+      "description": "結束休息時間的記錄"
+    },
+    {
+      "id": "5",
+      "type": "Overtime-start",
+      "description": "開始加班時間的記錄"
+    },
+    {
+      "id": "6",
+      "type": "Overtime-end",
+      "description": "結束加班時間的記錄"
     }
   ]
 }
