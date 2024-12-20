@@ -911,5 +911,231 @@
       "type": "Overtime-end",
       "description": "結束加班時間的記錄"
     }
+  ],
+  "posts": [
+    { "id": 1, "title": "json-server", "author": "typicode" },
+    { "id": 2, "title": "Getting started with React", "author": "john_doe" },
+    { "id": 3, "title": "Understanding Vue.js", "author": "jane_smith" },
+    { "id": 4, "title": "Web development in 2024", "author": "charlie_brown" },
+    { "id": 5, "title": "CSS Grid vs Flexbox", "author": "alice_williams" },
+    { "id": 6, "title": "Node.js basics", "author": "mike_jones" },
+    { "id": 7, "title": "Understanding GraphQL", "author": "james_clark" },
+    { "id": 8, "title": "JavaScript ES6 Features", "author": "olivia_white" },
+    {
+      "id": 9,
+      "title": "The Future of AI in Web Development",
+      "author": "david_green"
+    },
+    {
+      "id": 10,
+      "title": "Front-end development trends",
+      "author": "emily_scott"
+    },
+    { "id": 11, "title": "Introduction to TypeScript", "author": "lucas_king" },
+    { "id": 12, "title": "Exploring MongoDB", "author": "sofia_lee" },
+    {
+      "id": 13,
+      "title": "CSS Animations and Transitions",
+      "author": "william_harris"
+    },
+    {
+      "id": 14,
+      "title": "Building REST APIs with Express",
+      "author": "mia_jackson"
+    },
+    {
+      "id": 15,
+      "title": "Web Accessibility Best Practices",
+      "author": "henry_martin"
+    }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "great post, learned a lot!", "postId": 2 },
+    { "id": 3, "body": "this article is very helpful, thanks!", "postId": 3 },
+    { "id": 4, "body": "awesome explanation on CSS Grid!", "postId": 4 },
+    { "id": 5, "body": "I love this topic, keep it up!", "postId": 5 },
+    { "id": 6, "body": "I'm new to Node.js, this helped a lot!", "postId": 6 },
+    { "id": 7, "body": "good insights on GraphQL!", "postId": 7 },
+    { "id": 8, "body": "this is very timely with ES6 features!", "postId": 8 },
+    {
+      "id": 9,
+      "body": "AI is indeed shaping the future of development.",
+      "postId": 9
+    },
+    {
+      "id": 10,
+      "body": "front-end dev is so fast-moving these days!",
+      "postId": 10
+    },
+    {
+      "id": 11,
+      "body": "TypeScript makes development smoother.",
+      "postId": 11
+    },
+    { "id": 12, "body": "MongoDB is really good for NoSQL!", "postId": 12 },
+    { "id": 13, "body": "I want to try CSS animations next!", "postId": 13 },
+    {
+      "id": 14,
+      "body": "Express makes REST API development simple.",
+      "postId": 14
+    },
+    {
+      "id": 15,
+      "body": "web accessibility is so important, thanks for this post!",
+      "postId": 15
+    }
+  ],
+  "profile": {
+    "name": "typicode",
+    "avatar": "https://www.w3schools.com/w3images/avatar2.png"
+  },
+  "employees": [
+    {
+      "id": "1",
+      "name": "Alice Wang",
+      "position": "Software Engineer",
+      "department": "Engineering",
+      "salary": 50000,
+      "start_date": "2020-03-01",
+      "status": "active",
+      "avatar": "https://example.com/avatar1.png"
+    },
+    {
+      "id": "2",
+      "name": "Bob Lee",
+      "position": "Product Manager",
+      "department": "Product",
+      "salary": 60000,
+      "start_date": "2019-07-15",
+      "status": "active",
+      "avatar": "https://example.com/avatar2.png"
+    }
+  ],
+  "punchRecords": [
+    {
+      "id": "1",
+      "employee_id": "1",
+      "date": "2024-12-15",
+      "clock_in": "08:30",
+      "clock_out": "17:30",
+      "status": "normal"
+    },
+    {
+      "id": "2",
+      "employee_id": "2",
+      "date": "2024-12-15",
+      "clock_in": "09:00",
+      "clock_out": "18:00",
+      "status": "normal"
+    },
+    {
+      "id": "3",
+      "employee_id": "1",
+      "date": "2024-12-16",
+      "clock_in": "08:45",
+      "clock_out": "18:15",
+      "status": "late"
+    }
+  ],
+  "workHours": [
+    {
+      "id": "1",
+      "employee_id": "1",
+      "month": "2024-12",
+      "normal_hours": 160,
+      "overtime_hours": 5,
+      "late_minutes": 30,
+      "early_leave_minutes": 15
+    },
+    {
+      "id": "2",
+      "employee_id": "2",
+      "month": "2024-12",
+      "normal_hours": 160,
+      "overtime_hours": 8,
+      "late_minutes": 0,
+      "early_leave_minutes": 0
+    }
+  ],
+  "salaries": [
+    {
+      "id": "1",
+      "employee_id": "1",
+      "month": "2024-12",
+      "basic_salary": 50000,
+      "overtime_pay": 500,
+      "late_deduction": 50,
+      "early_leave_deduction": 25,
+      "total_salary": 50500
+    },
+    {
+      "id": "2",
+      "employee_id": "2",
+      "month": "2024-12",
+      "basic_salary": 60000,
+      "overtime_pay": 600,
+      "late_deduction": 0,
+      "early_leave_deduction": 0,
+      "total_salary": 60600
+    }
+  ],
+  "leaveRecords": [
+    {
+      "id": "1",
+      "employee_id": "1",
+      "leave_type": "sick",
+      "start_date": "2024-12-12",
+      "end_date": "2024-12-12",
+      "days": 1
+    },
+    {
+      "id": "2",
+      "employee_id": "2",
+      "leave_type": "vacation",
+      "start_date": "2024-12-10",
+      "end_date": "2024-12-11",
+      "days": 2
+    }
+  ],
+  "approvalFlow": [
+    {
+      "id": "1",
+      "employee_id": "1",
+      "request_type": "late_in",
+      "date": "2024-12-16",
+      "status": "pending",
+      "reason": "stuck in traffic",
+      "approver_id": "3"
+    },
+    {
+      "id": "2",
+      "employee_id": "2",
+      "request_type": "vacation",
+      "date": "2024-12-10",
+      "status": "approved",
+      "reason": "family vacation",
+      "approver_id": "3"
+    }
+  ],
+  "salaryReports": [
+    {
+      "id": "1",
+      "employee_id": "1",
+      "month": "2024-12",
+      "total_hours": 170,
+      "total_overtime": 5,
+      "total_salary": 50500,
+      "status": "approved"
+    },
+    {
+      "id": "2",
+      "employee_id": "2",
+      "month": "2024-12",
+      "total_hours": 168,
+      "total_overtime": 8,
+      "total_salary": 60600,
+      "status": "approved"
+    }
   ]
 }
