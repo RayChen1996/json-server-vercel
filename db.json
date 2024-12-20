@@ -448,5 +448,239 @@
   ],
   "Readers": [],
   "Cards": [],
-  "Historys": []
+  "Comments": [],
+  "Likes": [],
+  "Followers": [],
+  "Followings": [],
+  "Notifications": [],
+  "Messages": [],
+  "Chats": [],
+  "productCategories": [
+    {
+      "id": 1,
+      "name": "Electronics",
+      "description": "Devices and gadgets like smartphones, laptops, and accessories."
+    },
+    {
+      "id": 2,
+      "name": "Home Appliances",
+      "description": "Appliances for home use such as refrigerators, washing machines, and microwaves."
+    },
+    {
+      "id": 3,
+      "name": "Fashion",
+      "description": "Clothing, shoes, and accessories for men and women."
+    },
+    {
+      "id": 4,
+      "name": "Books",
+      "description": "Fiction, non-fiction, textbooks, and e-books."
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 14",
+      "description": "Latest Apple smartphone",
+      "price": 799,
+      "stock": 50,
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "name": "MacBook Air",
+      "description": "Lightweight and powerful laptop",
+      "price": 999,
+      "stock": 30,
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "name": "Samsung Refrigerator",
+      "description": "Energy-efficient fridge with smart features",
+      "price": 1200,
+      "stock": 20,
+      "categoryId": 2
+    },
+    {
+      "id": 4,
+      "name": "Nike Air Max",
+      "description": "Comfortable running shoes",
+      "price": 120,
+      "stock": 100,
+      "categoryId": 3
+    },
+    {
+      "id": 5,
+      "name": "The Great Gatsby",
+      "description": "Classic novel by F. Scott Fitzgerald",
+      "price": 15,
+      "stock": 200,
+      "categoryId": 4
+    }
+  ],
+  "members": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "phone": "123456789",
+      "address": "123 Main St, Anytown, USA"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "phone": "987654321",
+      "address": "456 Oak St, Othertown, USA"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "memberId": 1,
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 2
+        },
+        {
+          "productId": 5,
+          "quantity": 3
+        }
+      ],
+      "total": 1733,
+      "status": "Shipped",
+      "date": "2024-12-20"
+    },
+    {
+      "id": 2,
+      "memberId": 2,
+      "items": [
+        {
+          "productId": 2,
+          "quantity": 1
+        }
+      ],
+      "total": 999,
+      "status": "Processing",
+      "date": "2024-12-19"
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "memberId": 1,
+      "items": [
+        {
+          "productId": 3,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "memberId": 2,
+      "items": [
+        {
+          "productId": 4,
+          "quantity": 2
+        },
+        {
+          "productId": 5,
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "readerModels": [
+    {
+      "id": 1,
+      "modelName": "SecurePro 500",
+      "manufacturer": "SecureTech",
+      "description": "Advanced card reader with NFC and Bluetooth support.",
+      "features": ["NFC", "Bluetooth", "Wi-Fi", "Tamper Detection"]
+    },
+    {
+      "id": 2,
+      "modelName": "AccessGuard X1",
+      "manufacturer": "AccessCorp",
+      "description": "High-security reader with fingerprint and RFID functionality.",
+      "features": ["Fingerprint", "RFID", "Encrypted Communication"]
+    },
+    {
+      "id": 3,
+      "modelName": "SmartGate Mini",
+      "manufacturer": "TechGates",
+      "description": "Compact reader for small installations with basic RFID support.",
+      "features": ["RFID", "Compact Design", "Low Power Consumption"]
+    }
+  ],
+  "readers": [
+    {
+      "id": 1,
+      "name": "Main Entrance Reader",
+      "location": "Main Entrance",
+      "modelId": 1,
+      "status": "Active",
+      "installedDate": "2023-01-15"
+    },
+    {
+      "id": 2,
+      "name": "Office Reader",
+      "location": "Office Door",
+      "modelId": 2,
+      "status": "Active",
+      "installedDate": "2023-03-10"
+    },
+    {
+      "id": 3,
+      "name": "Warehouse Reader",
+      "location": "Warehouse Gate",
+      "modelId": 3,
+      "status": "Maintenance",
+      "installedDate": "2022-10-05"
+    }
+  ],
+  "carduser": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "phone": "123456789",
+      "address": "123 Main St, Anytown, USA",
+      "accessCardId": "AC123456"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "phone": "987654321",
+      "address": "456 Oak St, Othertown, USA",
+      "accessCardId": "AC987654"
+    }
+  ],
+  "accessLogs": [
+    {
+      "id": 1,
+      "readerId": 1,
+      "memberId": 1,
+      "timestamp": "2024-12-20T08:00:00Z",
+      "status": "Access Granted"
+    },
+    {
+      "id": 2,
+      "readerId": 2,
+      "memberId": 2,
+      "timestamp": "2024-12-20T09:15:00Z",
+      "status": "Access Granted"
+    },
+    {
+      "id": 3,
+      "readerId": 3,
+      "memberId": 1,
+      "timestamp": "2024-12-20T12:30:00Z",
+      "status": "Access Denied"
+    }
+  ]
 }
