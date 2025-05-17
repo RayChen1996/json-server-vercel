@@ -1137,5 +1137,125 @@
       "total_salary": 60600,
       "status": "approved"
     }
+  ],
+  "activity_categories": [
+    { "id": "category1-uuid", "name": "登山" },
+    { "id": "category2-uuid", "name": "跑步" },
+    { "id": "category3-uuid", "name": "羽球" },
+    { "id": "category4-uuid", "name": "健身" },
+    { "id": "category5-uuid", "name": "瑜珈" }
+  ],
+  "activities": [
+    {
+      "id": "activity1-uuid",
+      "title": "登山：2022最後一天挑戰台中大坑9號",
+      "description": "上個月報名方式加上加運動公園，以前常不下的牛仔褲，都穿得下了耶！！",
+      "image_url": "https://via.placeholder.com/400x300",
+      "start_time": "2022-12-31T20:14:00+08:00",
+      "end_time": "2022-12-31T23:00:00+08:00",
+      "max_participants": 20,
+      "current_participants": 12,
+      "status": "active",
+      "is_private": false,
+      "created_at": "2022-12-28T10:00:00+08:00",
+      "host_id": "user1-uuid",
+      "category_id": "category1-uuid",
+      "location_name": "台中大坑9號步道",
+      "location_address": "台中市北屯區東山路一段383號",
+      "latitude": 24.1754,
+      "longitude": 120.7121
+    },
+    {
+      "id": "activity2-uuid",
+      "title": "跑步：2023新年第一跑",
+      "description": "一起用汗水迎接新年吧！",
+      "image_url": "https://via.placeholder.com/400x300",
+      "start_time": "2023-01-01T08:00:00+08:00",
+      "end_time": null,
+      "max_participants": 10,
+      "current_participants": 5,
+      "status": "active",
+      "is_private": false,
+      "created_at": "2022-12-29T12:00:00+08:00",
+      "host_id": "user2-uuid",
+      "category_id": "category2-uuid",
+      "location_name": "台中都會公園",
+      "location_address": "台中市西屯區都會園路1215巷",
+      "latitude": 24.1896,
+      "longitude": 120.6037
+    },
+    {
+      "id": "activity3-uuid",
+      "title": "羽球：今晚來一場友誼賽",
+      "description": "新手友善，歡迎一起來流汗！",
+      "image_url": "https://via.placeholder.com/400x300",
+      "start_time": "2024-08-02T18:00:00+08:00",
+      "end_time": "2024-08-02T20:00:00+08:00",
+      "max_participants": 8,
+      "current_participants": 4,
+      "status": "active",
+      "is_private": false,
+      "created_at": "2024-08-01T10:00:00+08:00",
+      "host_id": "user3-uuid",
+      "category_id": "category3-uuid",
+      "location_name": "台中市立體育館",
+      "location_address": "台中市北區英士路100號",
+      "latitude": 24.1614,
+      "longitude": 120.6826
+    }
+  ],
+  "messages": [
+    {
+      "id": "message1-uuid",
+      "activity_id": "activity1-uuid",
+      "sender_id": "user2-uuid",
+      "content": "看起來很棒，想參加！",
+      "created_at": "2022-12-30T10:00:00+08:00"
+    },
+    {
+      "id": "message2-uuid",
+      "activity_id": "activity1-uuid",
+      "sender_id": "user3-uuid",
+      "content": "大坑九號挑戰！",
+      "created_at": "2022-12-30T15:30:00+08:00"
+    },
+    {
+      "id": "message3-uuid",
+      "activity_id": "activity3-uuid",
+      "sender_id": "user1-uuid",
+      "content": "想報名，請問程度要求？",
+      "created_at": "2024-08-01T12:30:00+08:00"
+    }
+  ],
+  "activity_participants": [
+    {
+      "user_id": "user2-uuid",
+      "activity_id": "activity1-uuid",
+      "status": "joined"
+    },
+    {
+      "user_id": "user3-uuid",
+      "activity_id": "activity1-uuid",
+      "status": "joined"
+    },
+    {
+      "user_id": "user1-uuid",
+      "activity_id": "activity3-uuid",
+      "status": "joined"
+    }
+  ],
+  "user_activities": [
+    {
+      "user_id": "user1-uuid",
+      "activity_id": "activity2-uuid",
+      "created_at": "2024-08-01T12:00:00+08:00",
+      "status": "saved"
+    },
+    {
+      "user_id": "user2-uuid",
+      "activity_id": "activity3-uuid",
+      "created_at": "2024-08-01T13:00:00+08:00",
+      "status": "saved"
+    }
   ]
 }
