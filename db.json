@@ -1257,5 +1257,39 @@
       "created_at": "2024-08-01T13:00:00+08:00",
       "status": "saved"
     }
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "title": "登山揪團",
+      "description": "一起去爬合歡山！",
+      "hostId": 1
+    },
+    {
+      "id": 2,
+      "title": "烘焙活動",
+      "description": "週末一起學做甜點～",
+      "hostId": 2
+    }
+  ],
+  "groupMembers": [
+    {
+      "id": 1,
+      "groupId": 1,
+      "memberId": 1,
+      "role": "host"
+    },
+    {
+      "id": 2,
+      "groupId": 1,
+      "memberId": 2,
+      "role": "participant"
+    },
+    {
+      "id": 3,
+      "groupId": 2,
+      "memberId": 2,
+      "role": "host"
+    }
   ]
 }
