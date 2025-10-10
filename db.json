@@ -1163,7 +1163,8 @@
       "location_name": "台中大坑9號步道",
       "location_address": "台中市北屯區東山路一段383號",
       "latitude": 24.1754,
-      "longitude": 120.7121
+      "longitude": 120.7121,
+      "isReviewed": false
     },
     {
       "id": "activity2-uuid",
@@ -1182,7 +1183,8 @@
       "location_name": "台中都會公園",
       "location_address": "台中市西屯區都會園路1215巷",
       "latitude": 24.1896,
-      "longitude": 120.6037
+      "longitude": 120.6037,
+      "isReviewed": false
     },
     {
       "id": "activity3-uuid",
@@ -1201,7 +1203,8 @@
       "location_name": "台中市立體育館",
       "location_address": "台中市北區英士路100號",
       "latitude": 24.1614,
-      "longitude": 120.6826
+      "longitude": 120.6826,
+      "isReviewed": false
     }
   ],
   "messages": [
@@ -1227,35 +1230,30 @@
       "created_at": "2024-08-01T12:30:00+08:00"
     }
   ],
-  "activity_participants": [
+  "activityMessages": [
     {
-      "user_id": "user2-uuid",
+      "id": "amessage1-uuid",
       "activity_id": "activity1-uuid",
-      "status": "joined"
+      "sender_id": "user2-uuid",
+      "content": "看起來很棒，想參加！",
+      "created_at": "2022-12-30T10:00:00+08:00",
+      "isReviewed": false
     },
     {
-      "user_id": "user3-uuid",
+      "id": "amessage2-uuid",
       "activity_id": "activity1-uuid",
-      "status": "joined"
+      "sender_id": "user3-uuid",
+      "content": "大坑九號挑戰！",
+      "created_at": "2022-12-30T15:30:00+08:00",
+      "isReviewed": false
     },
     {
-      "user_id": "user1-uuid",
+      "id": "amessage3-uuid",
       "activity_id": "activity3-uuid",
-      "status": "joined"
-    }
-  ],
-  "user_activities": [
-    {
-      "user_id": "user1-uuid",
-      "activity_id": "activity2-uuid",
-      "created_at": "2024-08-01T12:00:00+08:00",
-      "status": "saved"
-    },
-    {
-      "user_id": "user2-uuid",
-      "activity_id": "activity3-uuid",
-      "created_at": "2024-08-01T13:00:00+08:00",
-      "status": "saved"
+      "sender_id": "user1-uuid",
+      "content": "想報名，請問程度要求？",
+      "created_at": "2024-08-01T12:30:00+08:00",
+      "isReviewed": false
     }
   ],
   "groups": [
